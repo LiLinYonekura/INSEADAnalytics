@@ -1,0 +1,27 @@
+---
+title: "Exercise Set 4"
+author: "LiLin"
+output: html_document
+---
+
+We will use the [Boats case](http://inseaddataanalytics.github.io/INSEADAnalytics/Boats-A-prerelease.pdf) data. 
+
+```{r eval = TRUE, echo=TRUE, error = FALSE, warning=FALSE, message=FALSE, results='asis', tidy=TRUE}
+# Load the data
+# Code in the report file can be set to over-ride the code in the RunStudy.R file.
+# ProjectData = read.csv("../Data/Boats.csv", sep=";", dec=",", header=TRUE)
+```
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
